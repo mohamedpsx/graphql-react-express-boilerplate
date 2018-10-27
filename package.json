@@ -3,9 +3,13 @@
   "version": "0.1.0",
   "description": "a boilerplate template for using a sample react-express-graphql",
   "main": "index.js",
-  "repository": "https://github.com/nezamio/graphql-react-express-boilerplate.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nezamio/graphql-react-express-boilerplate.git"
+  },
   "scripts": {
     "test": "npm test",
+    "setup": "concurrently --kill-others \"cd ./client && npm install\" \"cd ./server && npm install\"",
     "dev": "concurrently --kill-others \"cd ./client && npm run start\" \"cd ./server && npm run start\""
   },
   "keywords": [
@@ -18,5 +22,10 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^4.0.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/nezamio/graphql-react-express-boilerplate/issues"
+  },
+  "homepage": "https://github.com/nezamio/graphql-react-express-boilerplate#readme",
+  "dependencies": {}
 }
