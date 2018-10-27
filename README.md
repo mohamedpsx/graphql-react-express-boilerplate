@@ -5,7 +5,7 @@ GraphQL - React - Express Boilerplate
 
 ## Installation
 
-  npm install @nezam/graphql-react-express-boilerplate
+  `npm install @nezam/graphql-react-express-boilerplate`
 
 ## Contributing
 
