@@ -1,6 +1,6 @@
 {
   "name": "@nezam/graphql-react-express-boilerplate",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "a boilerplate template for using a sample react-express-graphql",
   "main": "index.js",
   "repository": {
