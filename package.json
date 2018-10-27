@@ -1,9 +1,9 @@
 {
-  "name": "graphql-react-express-boilerplate",
-  "version": "1.0.0",
+  "name": "@nezam/graphql-react-express-boilerplate",
+  "version": "0.1.0",
   "description": "a boilerplate template for using a sample react-express-graphql",
   "main": "index.js",
-  "git": "https://github.com/nezamio/graphql-react-express-boilerplate.git"
+  "repository": "https://github.com/nezamio/graphql-react-express-boilerplate.git",
   "scripts": {
     "test": "npm test",
     "dev": "concurrently --kill-others \"cd ./client && npm run start\" \"cd ./server && npm run start\""
